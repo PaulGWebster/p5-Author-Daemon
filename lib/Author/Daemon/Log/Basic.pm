@@ -1,4 +1,4 @@
-package Author::Daemon::SimpleLog;
+package Author::Daemon::Log::Basic;
 
 use v5.28;
 use warnings;
@@ -21,7 +21,7 @@ sub new ( $class, $message = undef ) {
 }
 
 sub simple ( $self, $message ) {
-    return Author::Daemon::SimpleLog->new($message);
+    return Author::Daemon::Log::Basic->new($message);
 }
 
 sub message ( $self, $set_message = undef ) {
