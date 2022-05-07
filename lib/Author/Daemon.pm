@@ -8,6 +8,11 @@ use warnings;
 
 use Data::Dumper;
 
+# Load all our submodules
+use Author::Daemon::Enviroment::Absorb;
+use Author::Daemon::Log::Basic;
+use Author::Daemon::Snippet::Time;
+
 our $VERSION = '0.001';
 
 sub new ( $class ) {
