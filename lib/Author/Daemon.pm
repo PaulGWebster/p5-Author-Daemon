@@ -67,6 +67,12 @@ repository for this module on github)
 
 =for comment The module's description.
 
+=head1 INDEX
+
+Below is all functionality offered via the suite of modules under the namespace though some may require other modules to be availible (this will be noted).
+
+=head2 
+
 =head1 AUTHOR
 
 Paul G Webster <daemon@cpan.org>
@@ -77,4 +83,3 @@ This software is copyright (c) 2022 by Paul G Webster.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
