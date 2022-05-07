@@ -9,6 +9,10 @@ use utf8;
 
 our $VERSION = '0.001';
 
+exit do { main(%ENV,\@ARGV) };
+
+
+
 1;
 
 =head1 NAME
