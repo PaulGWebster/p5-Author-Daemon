@@ -5,13 +5,16 @@ use experimental 'signatures';
 
 use strict;
 use warnings;
-use utf8;
+
+use Data::Dumper;
 
 our $VERSION = '0.001';
 
-exit do { main(%ENV,\@ARGV) };
-
-
+sub new ( $class ) {
+    my $self = {};
+    bless $self, $class;
+    return $self;
+}
 
 1;
 
