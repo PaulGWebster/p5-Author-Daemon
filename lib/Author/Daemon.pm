@@ -1,10 +1,9 @@
 package Author::Daemon;
 
 use v5.28;
-use experimental 'signatures';
-
 use strict;
 use warnings;
+use experimental 'signatures';
 
 use Data::Dumper;
 
@@ -25,7 +24,7 @@ sub new ( $class ) {
 
 =head1 NAME
 
-Author::Daemon - Author daemons helpful creations 
+Author::Daemon - daemon's helpful creations 
 
 =head1 SYNOPSIS
 
@@ -82,6 +81,8 @@ repository for this module on github)
 =head1 INDEX
 
 Below is all functionality offered via the suite of modules under the namespace though some may require other modules to be availible (this will be noted).
+
+* Nothing yet working on it!
 
 =head2 
 
